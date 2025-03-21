@@ -1,0 +1,18 @@
+.App-Row {
+    display: flex;
+    justify-content: center;
+}
+
+.App-Row div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.left-div{
+    background-color:rgb(245, 213, 223);
+    width:300px;
+}
+.right-div{
+    background-color:rgb(245, 213, 223);
+    width:300px;
+}
