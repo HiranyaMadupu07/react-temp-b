@@ -12,6 +12,7 @@ import App9 from "./components/App9";
 import App10 from "./components/App10";
 import App11 from "./components/App11";
 import App12 from "./components/App12";
+import App13 from "./components/App13";
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Link to="app10" className="box">App10</Link>
           <Link to="app11" className="box">App11</Link>
           <Link to="app12" className="box">App12</Link>
+          <Link to="app13" className="box">App13</Link>
 
         </div>
         <hr></hr>
@@ -50,6 +52,7 @@ function App() {
             <Route path="app10" element={<App10 />} />
             <Route path="app11" element={<App11 />} />
             <Route path="app12" element={<App12 />} />
+            <Route path="app13" element={<App13 />} />
 
 
           </Routes>
