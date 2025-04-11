@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 export default function App21() {
   const [count, setCount] = useState(0);
   const [data, setData] = useState([]);
-  const url = "https://jsonplaceholder.typicode.com/users";
+  const PATH=process.env.REACT_APP_PATH
+  const url = '${PATH}/users';
   useEffect(() => {
     console.log("Component Mounted");
     fetch(url).then((res) => res.json().then((data) => setData(data)));

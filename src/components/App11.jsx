@@ -8,7 +8,7 @@ export default function App11() {
   }  
   return (
   <div>
-    <h3>Changing Color of the text usimg UseRef</h3>
+    <h3>Changing Color of the text using UseRef</h3>
       <p><input
         type="text"
         onChange={(e)=>setColor(e.target.value)}
